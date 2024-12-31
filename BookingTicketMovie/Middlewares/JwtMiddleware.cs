@@ -2,5 +2,6 @@
 {
     public class JwtMiddleware
     {
+        private readonly RequestDelegate _next;
     }
 }
